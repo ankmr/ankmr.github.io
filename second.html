@@ -1,0 +1,279 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>
+			inter-nit-chat
+		</title>
+		<style>
+	body{
+		background-color:rgb(44,174,250);
+	
+	}
+			
+			
+			#anu {
+			margin:10px ;
+			background-color:blue;
+			height:100px;
+			
+			}
+			#logo h1 {
+				display:inline;
+				
+			}
+			#logo img {
+			margin-left:10px;
+			}
+			#logo {
+				float:left;
+			}
+			#quotes{
+			            width:300px;
+						height:20px;
+						background-color:white;
+						margin-left:80px;
+						
+						background-color:blue;
+			}
+			#login {
+				float:right;
+				margin-top:30px;
+				padding-right:20px;
+			}
+			
+			#banner{
+				float:clear;
+				width:1315px;
+				height:57px;
+				background-color: rgb(76,175,80);
+				margin-left:10px;
+			 }
+					#banner ul{list-style-type:none;
+				                 margin-top:-10px;
+								  color:white;
+								  font-size:20px;
+								  margin-bottom:5px;
+								  
+					}
+								  
+								  
+								  li{
+								  float:left;
+								  }
+								  
+								  li a{
+								 
+								    display:block;
+								   padding:10px;
+								   text-align:center;
+								   text-decoration:none;
+								   
+								   
+								   
+								 }
+								  li a:hover{
+								 
+								  background-color:green;
+								 
+		                                          }
+												  
+												  
+	#content	{
+					/*margin-left:800px;
+					margin-top:-400px;*/
+					margin-top:20px;
+					
+					width:1315px;
+					height:437px;
+					/*background-color:rgb(0,173,239);*/
+					
+	              
+	}
+					#signup{
+								width:600px;
+								height:400px;
+								background-color:white;
+								float:right;
+								margin-bottom:200px;
+								background-color:rgb(44,174,250);
+							}
+							
+							  input{
+							 
+									  padding:5px;
+									  
+									  margin-top:10px;
+									  margin-left:5px;
+									  
+									  
+		           
+									}
+					 
+								table{
+										font-style:bold;
+										font-size:15px;
+										 margin-left:100px;
+										
+									  }
+							 
+							 #submit{
+							  margin-left:200px;
+							 background-color:blue;
+							  width:150px;
+							  cursor:pointer;
+							  font-size:20px;
+							  font-style:bold;
+							 
+							      
+									  }
+		  
+				#loop{
+					float:left;
+						/*width:600px;
+							height:400px;*/
+							margin-left:10px;
+							background-color:white;
+
+					}		 
+	   
+	  
+			 
+			 
+		   a{
+		   color:white;}
+		   
+		   #copy{
+		         width:1349px;
+				 height:38px;
+				 background-color:rgb(0,123,205);
+			
+				  }
+				  
+	
+			
+				   
+				   
+				
+		
+		  
+		</style>
+	</head>
+	<body>
+
+		
+	
+	<div id="anu">
+		<div id="logo">
+			<h1 style="font-size:55px;"><img id="logo" src="images\logo.png" height="70" width="70">  NITCB </h1>
+			<div id="quotes">
+				<p style="color:white;"><i> The Most Powerful Thing is challenge </i></p>
+			</div>
+		
+		</div>
+		
+		<div id="login">
+			 <form method="post" action="new2.php">
+				 <table >
+						 <tr>
+						 <td>Username</td>
+						<td><input type="text" placeholder="username" name="username"></td>
+						<td>Password</td>
+						<td><input type ="password" placeholder="password" name="password"></td>
+						 <td>
+						 <input type="submit" value="Go!" name="login" style="cursor:pointer;">
+						 </td>
+					 </tr>
+				 </table>
+
+			</form>
+		</div>
+	</div>
+	
+	
+	<div id="banner" >
+		<ul>
+			<li><a href="second.html ">Home</a></li>
+ 
+			<li><a href="about.html"> About</a></li>
+ 
+			<li><a href="gallery.html">Gallery</a></li>
+			
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="application.html">Application</a></li>
+		
+		</ul>
+
+	</div>
+	
+	
+<div id="content">
+		<div id="loop">
+			<img src="images\tech.jpg" style="height:400px;width:600px;">
+		</div>	
+
+		
+			
+
+<div id="signup">
+
+	 
+	   
+	   <form  method="post" action="done.php">
+	     <p style="font-size:20px; color:purple;background-color:yellow;">If you are new to NITCB then please register here</p>
+			
+		  <table>
+		   <tr>
+			<td>Name:</td>
+			<td><input type="text" name="firstname" style="width:150px;"></td>
+			</tr>
+			<tr>
+			<td>Lastname:</td>
+			<td><input type="text" name="lastname"style="width:150px;"></td>
+			</tr>
+			<tr>
+			<td>E-mail: </td>
+			<td><input type="email" name="email"style="width:150px;"></td>
+			</tr>
+			<tr>
+			<td>Dob: </td>
+			<td><input type="text" name="dob"style="width:150px;"></td>
+			</tr>
+			<tr>
+			<td>Password: </td>
+			<td><input type="password" name="pass"style="width:150px;"></td>
+			</tr>
+			
+			<tr>
+			<td>Gender: </td>
+			<td><input type="radio" name="gender" value="M">Male
+				<input type="radio" name="gender" value="F">Female</td>
+			</tr>
+		
+		</table>
+		
+			
+				<input type="submit" name="submit" value="submit" id="submit">
+			
+		</form>
+			
+	
+	
+	</div>
+	
+</div>
+	
+	
+
+	
+
+	
+	
+			<p style="color:white; text-align:center;margin-left:500px;">copyright @ 2016 by sas.corporation ltd.</p>
+	
+	
+
+	
+	
+</body>
+
+</html>
